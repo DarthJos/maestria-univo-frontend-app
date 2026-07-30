@@ -32,7 +32,7 @@ export class Login {
     };
 
     // 2. Hacemos la petición POST al backend
-    this.http.post<any>('http://localhost:8080/api/v1/auth/login', credenciales).subscribe({
+    this.http.post<any>('http://maestria-univo-backend-app-production.up.railway.app/api/v1/auth/login', credenciales).subscribe({
       next: (respuesta) => {
         // 3. Guardamos el token en el localStorage
         localStorage.setItem('auth_token', respuesta.token);
