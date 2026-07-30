@@ -1,0 +1,11 @@
+.login-container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;     /* Centra verticalmente */
+  height: 100vh;           /* Ocupa toda la altura de la pantalla */
+}
+
+mat-card {
+  width: 400px;            /* Opcional */
+  padding: 20px;
+}
