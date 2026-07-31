@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class AiService {
   // URL del Backend en Java
-  private apiUrl = 'http://maestria-univo-backend-app-production.up.railway.app/api/v1/ia/consulta';
+  private apiUrl = 'https://maestria-univo-backend-app-production.up.railway.app/api/v1/ia/consulta';
   
   constructor(private http: HttpClient) {}
 
